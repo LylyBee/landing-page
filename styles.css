@@ -1,7 +1,11 @@
+/*< ! -- vh ratio used: px/8.4
+vw ratio used: px/19.7 -- > */
+
+
 *
 {
     margin:0px;
-    background-color: #1f293748;
+    background-color:#1f293748;
     padding:0;
 }
 
@@ -37,7 +41,7 @@ margin-left: 15%;
 .main{
     color: #F9FAF8;
     padding-top: 2.38vh;
-    padding-left: 2.38vh;
+    padding-left: 1.0152vw;
 }
 
 a:link { text-decoration: none; }
@@ -77,8 +81,8 @@ h1{
 }
 
 .left{
-    width: 59.52vh;
-    height: auto;
+    width: 25.4vw;
+    height: 26vh;
 }
 
 h1{
@@ -89,7 +93,7 @@ h1{
 button{
     color:#F9FAF8;
     font-weight: bold;
-    padding:0.595vh 1.785vh;
+    padding:0.595vh 0.76vw;
     border-radius: 0.595vh;
     border:0px;
     margin-top: 1.19vh;
@@ -104,7 +108,7 @@ button,
 
 .big-picture{
     height:26vh ;
-    width: 58vh;
+    width: 25.4vw;
 }
 
 h2{
@@ -134,18 +138,19 @@ h2,
 
 .small-picture{
     border-radius: 0.595vh;
-    width: 20.8vh;
+    width: 9.1vw;
     height: 20.8vh;
 }
 
 .small{
-    width: 20.8vh
+    width: 9.1vw;
     height: auto;
+    font-size: 1.9vh;
 }
 
 .quote{
     background-color: #E5E7EB;
-    font-size:4.285px;
+    font-size:4.285vh;
     font-style: italic;
     font-weight: light;
     color:#1F2937
