@@ -93,17 +93,10 @@ h1{
 button{
     color:#F9FAF8;
     font-weight: bold;
-    padding:0.595vh 0.76vw;
+    padding:0.595vh 1.5vw;
     border-radius: 0.595vh;
     border:0px;
-    margin-top: 1.19vh;
-}
-
-
-
-button,
-.subscription{
-    background-color:#3882F6;
+    margin-top: 1.5vh;
 }
 
 .big-picture{
@@ -138,20 +131,78 @@ h2,
 
 .small-picture{
     border-radius: 0.595vh;
-    width: 9.1vw;
+    width: 9.5vw;
     height: 20.8vh;
 }
 
 .small{
-    width: 9.1vw;
+    width: 9.5vw;
     height: auto;
     font-size: 1.9vh;
 }
 
-.quote{
+.middle-two{
+    padding:12vh;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+.middle-two,
+.quote,
+.reference{
     background-color: #E5E7EB;
-    font-size:4.285vh;
+}
+.quote{
     font-style: italic;
-    font-weight: light;
-    color:#1F2937
+    font-size:4.285vh;
+    font-weight:light;
+    color:#1F2937;
+    padding-bottom: 2vh;
+}
+
+.reference{
+    font-weight: bold;
+    text-align: right;
+    font-size: 3.2vh;
+}
+
+.container,
+.text,
+.text p,
+.button,
+button{
+    background-color: #3882F6;
+}
+
+
+.middle-three{
+    padding-top: 6vh;
+    padding-bottom:6vh ;
+    padding-left:8vw ;
+    padding-right: 8vw;
+    }
+
+.container{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+    padding-bottom:3vh ;
+    padding-left:4vw ;
+    padding-right: 4vw;
+    box-align: center;
+    }
+    
+.text p{
+    color:#F9FAF8
+}
+
+.subscription{
+    font-weight: bolder;
+}
+
+.border{
+    border:0.4vh;
+    border-style:solid;
+    border-color: #F9FAF8;
+    width: 7vw;
+    margin-top:0px;
 }
