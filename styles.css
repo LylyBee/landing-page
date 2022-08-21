@@ -1,6 +1,4 @@
-/*< ! -- vh ratio used: px/8.4
-vw ratio used: px/19.7 -- > */
-
+/*<! --General-->*/
 
 *
 {
@@ -19,10 +17,44 @@ margin-left: 15%;
     padding-left: 10%;
 }
 
+
 .header,
-.top{
+.top,
+.footer{
     background-color: #1F2937;
 }
+
+.middle-one,
+.middle-three{
+    background-color:#F9FAF8;
+}
+
+.container,
+.text,
+.text p,
+.button,
+button{
+    background-color: #3882F6;
+}
+
+.logo,
+h1,
+.text p,
+.copyright{
+    color:#F9FAF8;
+}
+
+button{
+    color:#F9FAF8;
+    font-weight: bold;
+    padding:0.595vh 1.5vw;
+    border-radius: 0.595vh;
+    border:0px;
+    margin-top: 1.5vh;
+    font-size: 1.9vh;
+}
+
+/*header:logo and links*/
 
 .header{
     display:flex;
@@ -31,11 +63,14 @@ margin-left: 15%;
 
 .logo{
     padding-top:2.38vh ;
+    font-size:2.85vh;
 }
 
 .links{
     display:flex;
     justify-content: space-between;
+    font-size: 2.14vh;
+    color:#E5E7EB
 }
 
 .main{
@@ -52,21 +87,8 @@ a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
 
-.middle-one,
-.middle-three{
-    background-color:#F9FAF8;
-}
+/*top: title, text and main picture*/
 
-.logo{
-    font-size:2.85vh;
-}
-
-.logo,
-h1{
-    color:#F9FAF8;
-}
-
-.links,
 .left p
 {   
     font-size: 2.14vh;
@@ -90,15 +112,6 @@ h1{
     font-weight: 800;
 }
 
-button{
-    color:#F9FAF8;
-    font-weight: bold;
-    padding:0.595vh 1.5vw;
-    border-radius: 0.595vh;
-    border:0px;
-    margin-top: 1.5vh;
-}
-
 .big-picture{
     height:26vh ;
     width: 25.4vw;
@@ -117,6 +130,8 @@ h2,
 .images div,
 .small{
     background-color: #F9FAF8;}
+
+/*middle-one: multiple pictures with description*/
 
 .images{
     display:flex;
@@ -140,6 +155,8 @@ h2,
     height: auto;
     font-size: 1.9vh;
 }
+
+/*middle-two: quote*/
 
 .middle-two{
     padding:12vh;
@@ -165,14 +182,8 @@ h2,
     font-size: 3.2vh;
 }
 
-.container,
-.text,
-.text p,
-.button,
-button{
-    background-color: #3882F6;
-}
 
+/*middle-three: sign up invitation with button*/
 
 .middle-three{
     padding-top: 6vh;
@@ -190,14 +201,15 @@ button{
     padding-right: 4vw;
     box-align: center;
     }
-    
-.text p{
-    color:#F9FAF8
+
+.text{
+    font-size: 1.9vh;
 }
 
 .subscription{
     font-weight: bolder;
 }
+
 
 .border{
     border:0.4vh;
@@ -205,4 +217,17 @@ button{
     border-color: #F9FAF8;
     width: 7vw;
     margin-top:0px;
+}
+
+/*footer: coryrights*/
+
+.footer{
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    font-size: 1.9vh;
+}
+
+.one{
+    padding-bottom:  1vh;
 }
