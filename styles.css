@@ -26,7 +26,7 @@ margin-left: 15%;
 }
 
 .logo{
-    padding-top:20px ;
+    padding-top:2.38vh ;
 }
 
 .links{
@@ -36,8 +36,8 @@ margin-left: 15%;
 
 .main{
     color: #F9FAF8;
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 2.38vh;
+    padding-left: 2.38vh;
 }
 
 a:link { text-decoration: none; }
@@ -54,7 +54,7 @@ a:active { text-decoration: none; }
 }
 
 .logo{
-    font-size:24px;
+    font-size:2.85vh;
 }
 
 .logo,
@@ -63,37 +63,38 @@ h1{
 }
 
 .links,
-p
+.left p
 {   
-    font-size: 18px;
+    font-size: 2.14vh;
     color:#E5E7EB
 }
 
+.top{
+    display: flex;
+    padding-top: 11.9vh;
+    padding-bottom: 11.9vh;
+    justify-content: space-between;
+}
+
+.left{
+    width: 59.52vh;
+    height: auto;
+}
+
 h1{
-    font-size: 48px;
+    font-size: 5.7vh;
     font-weight: 800;
 }
 
 button{
     color:#F9FAF8;
     font-weight: bold;
-    padding:5px 15px;
-    border-radius: 5px;
+    padding:0.595vh 1.785vh;
+    border-radius: 0.595vh;
     border:0px;
-    margin-top: 10px;
+    margin-top: 1.19vh;
 }
 
-.top{
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    justify-content: space-between;
-}
-
-.left{
-    width: 500px;
-    height: auto;
-}
 
 
 button,
@@ -101,15 +102,50 @@ button,
     background-color:#3882F6;
 }
 
+.big-picture{
+    height:26vh ;
+    width: 58vh;
+}
+
 h2{
-    font-size:36px;
+    font-size:4.285vh;
     font-weight: 800;
     color:#1F2937;
+    text-align: center;
+    padding:4.76vh;
+}
+
+h2,
+.images,
+.images div,
+.small{
+    background-color: #F9FAF8;}
+
+.images{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 8.3vh;
+}
+
+.images div{
+    margin:2.38vh;
+}
+
+.small-picture{
+    border-radius: 0.595vh;
+    width: 20.8vh;
+    height: 20.8vh;
+}
+
+.small{
+    width: 20.8vh
+    height: auto;
 }
 
 .quote{
     background-color: #E5E7EB;
-    font-size:36px;
+    font-size:4.285px;
     font-style: italic;
     font-weight: light;
     color:#1F2937
